@@ -1,1 +1,1 @@
-# https://anroska.github.io/rsschool-cv/cvrsschool-cv
+# https://anroska.github.io/rsschool-cv/
