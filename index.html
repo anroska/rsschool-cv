@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap" rel="stylesheet">
+    <title>cv</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="content">
+    <main class="main">
+        <div class="column__left">
+            <header class="header">
+                <img class="header__img" src="assets/img/photo.jpg" alt="my-photo" width="200" height="200">
+                <h1>Anastasia Roschepko</h1>
+                <h2>Junior Frontend Developer</h2>
+            </header>
+            <div class="column__left-content">
+                <section>
+                    <h2 class="content__title">Contacts</h2>
+                    <div class="separator"></div>
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            <img class="contact__img" src="assets/img/github.png" alt="github" width="30" height="30">
+                            <a href="github.com/anroska">github.com/anroska</a>
+                        </li>
+                        <li class="contact__item">
+                            <img class="contact__img" src="assets/img/telegram.png" alt="telegram" width="30" height="30">
+                            <a href="t.me/qwersatis">t.me/qwersatis</a>
+                        </li>
+                        <li class="contact__item">
+                            <img class="contact__img" src="assets/img/gmail.png" alt="gmail" width="30" height="30">
+                            <a href="qwersatis@gmail.com">qwersatis@gmail.com</a>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 class="content__title">Skills</h2>
+                    <div class="separator"></div>
+                    <ul class="skills__list">
+                        <li class="skills__item">HTML5/CSS3 (Bootstrap, SASS/SCSS)</li>
+                        <li class="skills__item">JavaScript ES6</li>
+                        <li class="skills__item">Git/GitHub</li>
+                        <li class="skills__item">Photoshop/Figma</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 class="content__title">Languages</h2>
+                    <div class="separator"></div>
+                    <ul class="languages__list">
+                        <li class="languages__item">Russian - Native</li>
+                        <li class="languages__item">English - A1</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="column__right">
+            <section class="base__title">
+                <div class="base__subtitle">
+                    <img  class ="base__img" src="assets/img/girl.png" alt="me" width="30" height="30">
+                    <h2 class="text__title">About me</h2>
+                </div>
+                    <p class="base__text">I am 24 years old and my main specialty is pharmacy. Over the years of working in this profession, I have not seen any growth either in career or salary terms. For a long time I thought about where I could go and where I could realize myself, which eventually led me to IT. For half a year I took offline courses on frontend development, but I don't want to stop there and I want to continue studying. I hope I can learn something new thanks to the Rs school.</p>
+            </section>
+            <section>
+                <div class="base__subtitle">
+                    <img class ="base__img" src="assets/img/education.png" alt="education" width="30" height="30">
+                    <h2 class="text__title">Education</h2>
+                    
+                </div>
+                <div class="base__text">
+                    <span class="block__date">2014-2018</span>
+                    <p class="block__text">Miass Medical College, pharmacist</p>
+                </div>
+                <div>
+                    <span class="block__date">04/2022-11/2022</span>
+                    <p class="block__text">AVENUE Frontend Development Course</p>
+                </div>
+            </section>
+            <div class="container">
+            <section>
+                <div class="base__subtitle">
+                    <img  class ="base__img" src="assets/img/binary-code.png" alt="code" width="30" height="30">
+                    <h2 class="text__title">Code</h2>
+                </div>
+                <div class="code__example">
+                <code>
+                    const finalGrade = (exam, projects) => {
+                        <br>	
+                    if (exam >= 90 || projects >= 10) {
+                        <br>	
+                    return 100
+                        <br>	
+                    }
+                        <br>	
+                    else if (exam >= 75 && projects >= 5) {
+                        <br>	
+                    return 90
+                        <br>	
+                    }
+                        <br>	
+                    else if (exam >= 50 && projects >= 2) {
+                        <br>	
+                    return 75
+                    	<br>	
+                    }
+                        <br>	
+                    else {
+                        <br>	
+                    return 0
+                        <br>
+                    }
+                </code>
+                </div>
+            </section>
+            <section class="container__title">
+                <div class="base__subtitle">
+                    <img  class ="base__img" src="assets/img/idea.png" alt="code" width="30" height="30">
+                    <h2 class="text__title">Projects</h2>
+                </div>
+                <div class="container__project">
+                    <p>Countdown-timer</p>
+
+                    <a href="https://github.com/anroska/countdown-timer"><img class ="projects" src="assets/img/project1.png" alt="project1" width="300" height="200"></a>
+                    
+                    <p>Web-site Exploreand Travel</p>
+
+                    <a href="https://github.com/anroska/ExploreandTravel_Site"><img class ="projects" src="assets/img/project2.png" alt="project2" width="300" height="200"></a>
+                </div>
+            </section>
+        </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="block__footer">
+            <img class="img__footer" src="assets/img/github.png" alt="github" width="30" height="30">
+            <a class="text__footer" href="https://github.com/anroska">My GitHub</a>
+        </div>
+        <a href="https://rs.school/js/">
+            <img src="assets/rs_school_js.svg" alt="rs_school" width="100" height="50">
+        </a>
+        <div class="date__footer">2022</div>
+    </footer>
+    </div>
+   </div>
+</body>
+</html>
