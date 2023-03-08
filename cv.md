@@ -15,7 +15,9 @@ I am 24 years old and my main specialty is pharmacy. Over the years of working i
 * Photoshop/Figma
 ## Code example
 ```
-
+function makeNegative(num) {
+  return -Math.abs(num)
+}
 ```
 ## Courses
 * IT-course [«AVENUE»](https://avenue.school/) JavaScript/Front-end
